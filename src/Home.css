@@ -3,9 +3,13 @@
 
 
 .Home {
-  background-color: rgb(255, 255, 255);
+ 
+  background-image: ('./src/images/bkg.jpg');
+  background-size: cover; /* Ensure the image covers the entire area */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; 
   color: rgb(0, 0, 0);
-  height: 100vh;
+  height: 80vh;
   display: flex;
   justify-content: center;
   align-items: center;

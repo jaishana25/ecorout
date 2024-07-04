@@ -1,0 +1,35 @@
+/* src/Home.css */
+/* src/Home.css */
+
+
+.Home {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.Home-rectangle {
+  background-color: rgb(204, 115, 245);
+  color: rgb(255, 255, 255);
+  width: 90vh;  /* Responsive width */
+  height: auto; /* Auto height to accommodate content */
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Home-input {
+  width: 80%;
+  padding: 20px;
+  margin: 10px 0;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
